@@ -1,0 +1,55 @@
+h1{
+    text-align: center;
+}
+
+form{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+form input{
+    border-radius: 10px;
+    border: 1px solid black;
+    outline: none;
+}
+
+form button{
+    width: 100px;
+    height: 30px;
+    outline: none;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+ul{
+    list-style: none;
+    text-align: center;
+}
+
+li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    margin: 5px;
+}
+
+li p{
+    font-size: 20px;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+.delete_icon{
+    width: 20px;
+    cursor: pointer;
+    margin: 5px;
+}
